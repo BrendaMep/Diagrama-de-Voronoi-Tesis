@@ -17,6 +17,3 @@ plt.scatter(df[0], df[1],marker=".")
 vor = Voronoi(df)
 voronoi_plot_2d(vor)
 plt.show()
-
-
-
