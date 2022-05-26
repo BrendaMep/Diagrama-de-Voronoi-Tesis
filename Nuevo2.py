@@ -5,15 +5,15 @@ import numpy as np
 
 
 datos = pd.read_csv('C:/Users/Home/Documents/TESIS DIAGRAMA DE VORONOI/Diagrama-de-Voronoi-Tesis/'
-                   'iris.data',header= None)
+                   'Ejemplo.data')
 #print(datos.head())
 
 df= pd.DataFrame(datos)
 
 #elimino columnas
-df = df.drop(df.columns[[2, 3,4]], axis='columns')
+df = df.drop(df.columns[[2]], axis='columns')
 
-plt.scatter(df[0], df[1],marker=".")
+plt.scatter(df.X, df.Y,marker=".")
 vor = Voronoi(df)
 voronoi_plot_2d(vor)
 plt.show()
