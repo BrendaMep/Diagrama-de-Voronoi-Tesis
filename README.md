@@ -7,7 +7,8 @@ Diagramas de Voronoi
 
 Dado un conjunto finito de n puntos (x_1,y_1 ),(x_2,y_2 ),…, (x_n,y_n) en el plano, un diagrama de Voronoi es una división de éste en n regiones, a los n puntos se les conoce como generadores. Cabe destacar que a cada región le corresponde un único generador. Las regiones están compuestas por aquellos puntos que se encuentran más cercanos a algún generador, estas regiones reciben el nombre de polígonos de Voronoi.
 
-aristas.png
+
+![](aristas.png)
 
 En la figura anterior se muestran los polígonos de Voronoi de cuatro puntos en el plano, estos se identifican por diferentes colores.
 
